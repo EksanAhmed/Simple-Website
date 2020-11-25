@@ -1,0 +1,112 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.container {
+    background-color: #c2baba;
+    border-radius: 5px;
+    width: 30%;
+}
+
+h2 {
+    text-align: center;
+    margin: 0 0 10%;
+    color: rgb(78, 26, 173);
+}
+
+.form {
+    padding: 6% 8%;
+}
+
+.form-control {
+    margin-bottom: 3%;
+    /* padding-bottom: 6%; */
+}
+
+.form-control label {
+    color: rgb(77, 10, 66);
+    margin-bottom: 1%;
+}
+
+.form-control input, select {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 2%;
+    font-size: 100%;
+}
+
+.form-control input:focus {
+    border: 2px solid purple;
+    outline: 0;
+}
+
+.form-control.success input {
+    border-color: greenyellow;
+}
+
+.form-control.error input {
+    border-color:red;
+}
+
+.form-control small {
+    color: red;
+    visibility: hidden;
+    margin-top: 2%;
+}
+
+.form-control.error small
+{
+    visibility: visible;
+}
+
+.form button
+{
+    cursor: pointer;
+    background-color: rgb(58, 58, 189);
+    border: 2px solid plum;
+    color: rgb(218, 218, 218);
+    display: block;
+    font-size: 110%;
+    padding: 3%;
+    margin-top: 5%;
+    width: 100%;
+    border-radius: 10px;
+}
+.form button:hover
+{
+    background-color: lightcoral;
+}
+
+.form button:disabled {
+    background-color: red;
+}
+ 
+@media screen and (max-width:1200px)
+{
+    .container {
+        background-color: #c2bebe;
+        border-radius: 5px;
+        width: 48vh;
+    }
+}
+
+@media screen and (max-width:500px)
+{
+    .container {
+        background-color: c2bebe;
+        border-radius: 5px;
+        width: 48vh;
+    }
+}

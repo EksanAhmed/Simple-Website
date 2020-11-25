@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background-color: rgb(57, 88, 90);
+    color: rgb(83, 212, 195);
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 300%;
+    margin-bottom: 50px;
+}
+
+.container {
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    
+}
+
+li{
+    display: inline-block;
+    padding: 50px;
+    margin: 2%;
+    border: 15px solid rgba(25, 149, 187, 0.788);
+    border-radius: 50%;
+    font-size: 200%;
+}
+.chart {
+    width: 95px;
+    height: 95px;
+    margin: 20px 10px;
+    vertical-align: top;
+    position: relative;
+
+}
+
+span {    
+    display: block;
+    font-size: 200%; 
+
+}

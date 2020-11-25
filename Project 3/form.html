@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/form.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form id="form" class="form" name="form" action="GET">
+            <h2>Personal Information</h2>
+            <div class="form-control"> 
+                <label for="name">Full Name:</label>
+                <input type="text" id="fname" placeholder="full name" onKeyup = "checkform()">
+                <small>error</small>
+            </div>
+    
+            <div class="form-control">
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="username" onKeyup = "checkform()">
+                <small>error</small>
+            </div>
+    
+            <div class="form-control">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="email" onKeyup = "checkform()">
+                <small>error</small>
+            </div>
+    
+            <div class="form-control">
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="password" onKeyup = "checkform()">
+                <small>error</small>
+            </div>
+    
+            <div class="form-control">
+                <label for="cpassword">Confirm Password:</label>
+                <input type="password" id="cpassword" placeholder="password" onKeyup = "checkform()">
+                <small>error</small>
+            </div>
+    
+            <div class="form-control">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="contact" placeholder="phone number" onKeyup = "checkform()">
+                <small>error</small>
+            </div>
+    
+            <div class="form-control">
+                <label for="address">Address:</label>
+                <select name="country" id="address" onKeyup = "checkform()">
+                    <option>select</option>
+                    <option value="usa">USA</option>
+                    <option value="india">India</option>
+                    <option value="bangladesh">Bangladesh</option>
+                    <option value="germany">Germany</option>
+                    <option value="china">China</option>
+                </select>
+                <small>error</small>
+            </div>
+            <button id="btn" type="submit" disabled="disabled" value="Submit"> Submit </button>
+        </form>
+    </div>   
+    <script src="./JS/form.js"></script>
+
+</body>
+</html>
+
